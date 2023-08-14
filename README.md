@@ -15,6 +15,7 @@ This project is currently in its early stages and is only a concept. Significant
 - **Scapy:** Required for network scanning and ARP spoofing functionalities.
 - **Python's os and threading modules:** Used for various functionalities like multi-threaded port scanning and system-level commands.
 - **Nmap:** Used for getting some details with `lookup` command.
+  
 To install dependencies, run: `pip install scapy sqlite3 nmap-python`
 
 
