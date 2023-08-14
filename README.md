@@ -14,8 +14,8 @@ This project is currently in its early stages and is only a concept. Significant
 - **SQLite3:** Used for database handling.
 - **Scapy:** Required for network scanning and ARP spoofing functionalities.
 - **Python's os and threading modules:** Used for various functionalities like multi-threaded port scanning and system-level commands.
-
-To install dependencies, run: `pip install scapy sqlite3`
+- **Nmap:** Used for getting some details with `lookup` command.
+To install dependencies, run: `pip install scapy sqlite3 nmap-python`
 
 
 ---
@@ -24,14 +24,12 @@ To install dependencies, run: `pip install scapy sqlite3`
 
 - **Network Scanning:** Identify hosts in your network.
 - **Host Lookup:** Examine details about a detected host.
-- **Bandwidth Limiting:** Restrict the bandwidth for a specific IP.
 
 ---
 
 ## Known Issues
 
 - **ARP Spoofing:** Currently, the ARP spoofing functionality does not operate as intended.
-- **Host Lookup:** Some details about a host might not be displayed correctly with the `lookup` command.
 
 ---
 
